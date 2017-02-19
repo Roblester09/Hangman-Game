@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/space.jpg");
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+
+.row-style {
+    border: dashed 2px yellow;
+    padding: 20px 0;
+    color: yellow;
+}
+
+.my-word {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size:1.6em;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.let-btn {
+    color: black;
+    padding: 20px 25px;
+    margin: 3px;
+    background-color: yellow;
+}
+
+#reset {
+    width: 100%;
+    padding: 15px;
+}
+
+footer {
+    padding: 20px;
+    color: yellow;
+    margin: 10px auto;
+}
