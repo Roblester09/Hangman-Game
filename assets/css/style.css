@@ -5,20 +5,27 @@
 }
 
 body {
-    background-image: url("../images/space.jpg");
+    background-color: black;
+    //background-image: url("../images/space.jpg");
     background-size: cover;
     background-position: center;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: 'Audiowide', cursive;
 }
 
 .container {
     max-width: 960px;
 }
 
-
 .row-style {
     border: dashed 2px yellow;
     padding: 20px 0;
+    color: yellow;
+}
+
+.bottom-style {
+    border: dashed 2px yellow;
+    padding: 10px 0;
     color: yellow;
 }
 
@@ -28,9 +35,7 @@ body {
     margin: 0;
     display: inline-block;
     padding: 0 10px;
-    font-size:1.6em;
 }
-
 
 .text-right {
     text-align: right;
@@ -39,13 +44,8 @@ body {
 .let-btn {
     color: black;
     padding: 20px 25px;
-    margin: 3px;
+    margin: 2px;
     background-color: yellow;
-}
-
-#reset {
-    width: 100%;
-    padding: 15px;
 }
 
 footer {
