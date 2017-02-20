@@ -84,11 +84,11 @@ window.onload = function () {
         myChances.innerHTML = "You have " + lives + " lives";
 
         if (lives < 1) {
-            myChances.innerHTML = "Game Over";
+            myChances.innerHTML = "Game Over! Refresh the page to play again!";
         }
         for (var i = 0; i < guesses.length; i++) {
             if (counter + space === randomWord.length) {
-                myChances.innerHTML = "You Win! Refresh the screen to play again!";
+                myChances.innerHTML = "You Win! Refresh the page to play again!";
             }
         }
 
